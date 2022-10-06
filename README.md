@@ -1,0 +1,2 @@
+# ExpenseMgr
+Simple Expense Manager
