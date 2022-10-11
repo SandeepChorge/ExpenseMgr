@@ -5,7 +5,7 @@ import androidx.room.PrimaryKey
 @Entity
 data class HashTags (
     @PrimaryKey(autoGenerate = true)
-    var id: Long,               //id
+    var id: Long = 0,               //id
     var tagName: String,        //tag name, that will be visible under the transactions
     var detail: String ="",         //tag detail, detail related to the tag
     var createdAt: String,      //tag created date
